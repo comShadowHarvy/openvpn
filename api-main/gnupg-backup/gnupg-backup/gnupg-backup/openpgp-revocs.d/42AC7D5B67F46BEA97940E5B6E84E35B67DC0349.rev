@@ -1,0 +1,37 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa4096 2024-08-14 [S]
+      42AC7D5B67F46BEA97940E5B6E84E35B67DC0349
+uid          Chris <jimbob343@gmail.com>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQI2BCABCAAgFiEEQqx9W2f0a+qXlA5bboTjW2fcA0kFAma7/bMCHQAACgkQboTj
+W2fcA0ms8w/+K6c7fNjNWAY6dqGKvdIvfQ3ur5uKnBh8O4/0C6GH4vViPdh0vuJ7
+LfriIyX0aaOYJ8kloe7qXMC/Rg9pm1/UwcwtUm5Hvo6siVRqtM9p/tzzFyiDyI68
+upm43oj+bJ2M/4Zp7jqSEflC7FJiEwGIoS/XuQ6TjJlEu1gxEnpc7b4JqM3GGWAC
+9TbSvEiK0cS34gSxH+UmKIV0Vck5ozA2ksb1hyNn1PjXby/ty5Lp/Pgjeu/cW6DM
+aFzIMYMXlpCPryyjD4KHWZtrmIv0wkel7XsX5yy++Lbew2dH+9aADVS/SQGzshi5
+i0o3hhA7RaojRzvPhEuZVloopHjC8vGI1i8TvC2kEsMXVIHayANlqMktshVUsmLT
+UwH1d+KQF7nZ6MjweiMmZDA/KyENquJfA0RA+WMm4t/bJ4CwvUiKVSRtYOpCV02x
+RAkGKSvP4h3C43DAjWzoOFTMwfo5d7fV7nAtW2PveIUAQ+4TRaiB5XPCly1OjM83
+f0dqIICRHaBcsyapy4eGxsMEFE7pGyLYdTYsmDD+IugSjLvBgVkXGqeuE3VvcfZG
+/tPDtSi6WAIMOMfRFugmgvl/D45U+DFAYV4Ko5BnAGcS41BINsi/sS47lu4JX4aU
+NKLgaavqRw9o0OKpY2V1HdwlrOB1//oE8ovVl2YCIZd5CqUbOPgBZ2A=
+=X0P6
+-----END PGP PUBLIC KEY BLOCK-----
